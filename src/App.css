@@ -1,38 +1,426 @@
-.App {
+.background{
+  background:rgba(0, 0, 0, 0.5)url(./app/image/spa_therapy.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-blend-mode: darken; 
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+  background-color: #000000;
+
+  color: rgb(255, 255, 255);
+}
+
+
+.menu{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.menu h1{
+  color: #ffffff;
+  padding-right: 50px;
+  transition: 0.3s;
+}
+.menu h1:hover{
+  color: #f0c997;
+  padding-right: 50px;
+}
+
+.menu li{
+  color: #ffffff;
+  padding-right: 50px;
+  transition: 0.3s;
+}
+.menu li:hover{
+  color: #f0c997;
+}
+
+.mybutton{
+  background-color: #f0c997;
+  color: rgb(65, 63, 58);
+  border-radius: 8px;
+  border: solid;
+  border-color: #f0c997;
+  padding: 8px 16px;
+  text-align: center;
+  font-weight: bolder;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+.mybutton:hover {
+  background-color: rgb(65, 63, 58);
+  color: #f0c997;
+
+  border-style: solid;
+  border-color: #f0c997;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  
+  padding-top: 15%; 
+  padding-bottom: 15%; 
+  color: white;
+  font-size: 30px;
+  justify-content: center;
+  padding: 250px;
+  align-items: center;
+  text-align: center;
+  font-family: inherit monospace;
+}
+
+.visitcard{
+  margin: 5%;
+  border-style: solid; 
+  border-width: 10px;
+  border-color: #f0c997; 
+  border-radius: 8px;
+  text-align: center;
+  column-count: 2;
+  column-gap: 40px;
+  padding: 30px;
+}
+
+.servic{
+  font-family: inherit monospace;
+  text-align: center;
+  padding-bottom: 300px;
+}
+
+.main {
+  width: 100%;
+  height: 300px;
+  display: grid;
+  text-align: center;
+  grid: 300px / auto auto auto;
+}
+
+.mainelement{
+  width: 100%;
+
+}
+
+.icon{
+  color: rgb(65, 63, 58);
+  background-color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 10%;
+  font-weight: bolder;
+  transition: 0.3s;
+}
+.icon:hover {
+  background-color: rgb(102, 99, 92);
+  color: #f0c997;
+  border-style: none;
+}
+
+.tratamentos{
+ text-align: center;
+}
+
+.mainTratamentos{
+  width: 100%;
+  height: 620px;
+  display: grid;
+  text-align: center;
+  grid: 300px / auto auto auto;
+}
+
+.elementosTratamentos{
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.iconTratamentos0{
+  background: url(./app/image/serviços_0.jpg);
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+  transition: 0.7s;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.iconTratamentos0:hover{
+  background:rgba(0, 0, 0, 0.5)url(./app/image/serviços_0.jpg);
+  background-blend-mode: darken; 
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.textTratamanto{
+  transition: 0.7s;
+  opacity: 0;
+  padding: 80px 120px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.textTratamanto:hover{
+  opacity: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.iconTratamentos1{
+  background: url(./app/image/serviços_1.jpg);
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+  transition: 0.7s;
+}
+.iconTratamentos1:hover{
+  background:rgba(0, 0, 0, 0.5)url(./app/image/serviços_1.jpg);
+  background-blend-mode: darken; 
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+}
+
+.iconTratamentos2{
+  background: url(./app/image/serviços_2.jpg);
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+  transition: 0.7s;
+}
+.iconTratamentos2:hover{
+  background:rgba(0, 0, 0, 0.5)url(./app/image/serviços_2.jpg);
+  background-blend-mode: darken; 
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+}
+
+.iconTratamentos3{
+  background: url(./app/image/serviços_3.jpg);
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+  transition: 0.7s;
+}
+.iconTratamentos3:hover{
+  background:rgba(0, 0, 0, 0.5)url(./app/image/serviços_3.jpg);
+  background-blend-mode: darken; 
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+}
+.iconTratamentos4{
+  background: url(./app/image/serviços_4.jpg);
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+  transition: 0.7s;
+}
+.iconTratamentos4:hover{
+  background:rgba(0, 0, 0, 0.5)url(./app/image/serviços_4.jpg);
+  background-blend-mode: darken; 
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+}
+.iconTratamentos5{
+  background: url(./app/image/serviços_5.jpg);
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+  transition: 0.7s;
+}
+.iconTratamentos5:hover{
+  background:rgba(0, 0, 0, 0.5)url(./app/image/serviços_5.jpg);
+  background-blend-mode: darken; 
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+}
+
+
+
+
+.equip{
+  width: 100%;
+  height: 700px;
+  background-color: rgb(40, 40, 40);
+  color: rgb(255, 255, 255);
+  font-family: inherit monospace;
+  text-align: center;
+}
+
+.cardEquip{
+  display: flex;
+}
+
+.equipTitle{
+padding: 20px;
+font-size: large;
+}
+
+
+.squad{
+ padding: 20px;
+}
+
+.mainSquad{
+  display: flex;
+  align-items: center;
+  background-color: #f0c9977e;
+}
+
+.mainSquad img{
+  padding: 20px;
+}
+
+.squadText{
+  padding: 50px;
+
+}
+
+.mybuttonEquip{
+  background-color: rgb(48, 48, 48);
+  color: white;
+  margin-top: 20px;
+  padding: 30px 100px;
+  font-weight: bolder;
+  transition: 0.3s;
+  border-radius: 8px;
+  border-style: none;
+  font-size: large;
+}
+
+.mybuttonEquip:hover {
+  background-color: #f0c997;
+  color: #000000;
+
+}
+
+.video{
+  font-family: inherit monospace;
+  text-align: center; 
+  background-image: url('./app/image/background_therapy.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  src: url('./assets/X2.mp4');
+  padding: 80px;
+}
+
+
+.planos{
+  align-items: center;
+  text-align: center;
+}
+
+
+.imgCh{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background:rgba(0, 0, 0, 0.4)url(./app/image/spa-therapy3.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-blend-mode: darken; 
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  align-items: center;
+  text-align: center;
+  font-family: inherit monospace;
+}
+
+.imgCh h1{
+  margin-inline: 30%;
+}
+
+.imgCh p{
+  margin-inline: 20%;
+}
+
+.imgCh button{
+  font-size: 15px;
+}
+
+
+
+
+.blog{
+  text-align: center;
+
+ }
+ 
+ .mainblog{
+   width: 100%;
+   height: 400px;
+   display: grid;
+   text-align: center;
+   grid: 300px / auto auto auto;
+ }
+ 
+ .elementosblog{
+   width: 100%;
+   text-align: center;
+ }
+ 
+ .iconblog0{
+  background:rgba(0, 0, 0, 0.4)url(./app/image/blog_1.jpg);
+  background-blend-mode: darken; 
+   background-repeat: none;
+   background-size: cover;
+   border-style: none;
+   padding: 80px 120px;
+   color: white
+ }
+ .iconblog1{
+   background:rgba(0, 0, 0, 0.4) url(./app/image/blog_2.jpg);
+   background-blend-mode: darken; 
+   background-repeat: none;
+   background-size: cover;
+   border-style: none;
+   padding: 80px 120px;
+   color: white
+ }
+ .iconblog2{
+   background:rgba(0, 0, 0, 0.4) url(./app/image/blog_3.jpg);
+   background-blend-mode: darken; 
+   background-repeat: none;
+   background-size: cover;
+   border-style: none;
+   padding: 80px 120px;
+   color: white
+ }
+
+
+
+.imgCh0{
+  width: 100%;
+  height: 100%;
+  background:rgba(0, 0, 0, 0.4)url(./app/image/spa-therapy4.jpg);
+  background-repeat: none;
+  background-size: auto;
+  padding-top: 500px;
+  padding-bottom: 500px;
+}
+
+
+
+.contact{
+  background:url(./app/image/background_spa2.jpg);
+  padding-top: 400px;
+  padding-bottom: 400px;
+}
+
+
+.baseboard{
+  background-color: rgb(40, 40, 40);
+  border-radius: 8px;
+  color: white;
+  align-items: center;
+  column-count: 2;
+  column-gap: 40px;
+  padding: 100px;
+  padding-inline: 300px;
 }
