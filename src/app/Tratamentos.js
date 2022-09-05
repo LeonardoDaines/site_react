@@ -15,10 +15,6 @@ function Tratamentos(props){
                                 consectetur adip isicing elit, <br/>
                                 sed do eiusmod tempor incididunt ut<br/>
                                 labore et dolore magna aliqua.</p>
-                                <p>Lorem ipsum dolor sit amet,<br/>
-                                consectetur adip isicing elit, <br/>
-                                sed do eiusmod tempor incididunt ut<br/>
-                                labore et dolore magna aliqua.</p>
                              </div>
                         </button>
                     </div>  

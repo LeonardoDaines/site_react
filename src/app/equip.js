@@ -14,25 +14,25 @@ function Equip(props){
                     <h2>{props.subtitulo} </h2>
                 </div>
                 <div className="cardEquip">
-                    <div className="main">
+                    <div className="mainEquip">
                         <div data-aos="fade-right">
                             <img src={businesSwoman1} alt="img" width="280" height="200"/>
                             <button className="mybuttonEquip">Josy Hair <br/> Estetica </button>
                         </div >  
                     </div >
-                    <div className="main">
+                    <div className="mainEquip">
                         <div data-aos="fade-right">
                             <img src={businesSwoman2} alt="img" width="280" height="200"/>
                             <button className="mybuttonEquip">Helena <br/> Manicure</button>
                         </div>  
                     </div>
-                    <div className="main">
+                    <div className="mainEquip">
                         <div data-aos="fade-right">
                             <img src={businesSwoman3} alt="img" width="280" height="200"/>
                             <button className="mybuttonEquip">Alice <br/> cabeleireira</button>
                         </div>  
                     </div>
-                    <div className="main">
+                    <div className="mainEquip">
                         <div data-aos="fade-right">
                             <img src={businesSwoman4} alt="img" width="280" height="200"/>
                             <button className="mybuttonEquip">Valentina <br/> cabeleireira</button>

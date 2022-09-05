@@ -1,47 +1,3 @@
-.background{
-  background:rgba(0, 0, 0, 0.5)url(./app/image/spa_therapy.jpg);
-  background-repeat: none;
-  background-size: cover;
-  background-blend-mode: darken; 
-}
-
-.header{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-
-  background-color: #000000;
-
-  color: rgb(255, 255, 255);
-}
-
-
-.menu{
-  display: flex;
-  list-style: none;
-  align-items: center;
-}
-
-.menu h1{
-  color: #ffffff;
-  padding-right: 50px;
-  transition: 0.3s;
-}
-.menu h1:hover{
-  color: #f0c997;
-  padding-right: 50px;
-}
-
-.menu li{
-  color: #ffffff;
-  padding-right: 50px;
-  transition: 0.3s;
-}
-.menu li:hover{
-  color: #f0c997;
-}
-
 .mybutton{
   background-color: #f0c997;
   color: rgb(65, 63, 58);
@@ -62,21 +18,66 @@
   border-color: #f0c997;
 }
 
+
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #323232;
+
+  color: rgb(255, 255, 255);
+}
+
+.menu{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.menu h1{
+  color: #ffffff;
+  padding-right: 50px;
+  transition: 0.3s;
+}
+
+.menu h1:hover{
+  color: #f0c997;
+  padding-right: 50px;
+}
+
+.menu li{
+  color: #ffffff;
+  padding-right: 50px;
+  transition: 0.3s;
+}
+.menu li:hover{
+  color: #f0c997;
+}
+
+
+
 .card {
   width: 100%;
   height: 100%;
   position: relative;
-  
-  padding-top: 15%; 
-  padding-bottom: 15%; 
   color: white;
   font-size: 30px;
   justify-content: center;
-  padding: 250px;
+  padding: 20%;
   align-items: center;
   text-align: center;
   font-family: inherit monospace;
 }
+.background{
+  background:rgba(0, 0, 0, 0.5)url(./app/image/spa_therapy.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-blend-mode: darken; 
+}
+
+
 
 .visitcard{
   margin: 5%;
@@ -90,31 +91,28 @@
   padding: 30px;
 }
 
+
+
+
 .servic{
   font-family: inherit monospace;
   text-align: center;
-  padding-bottom: 300px;
+  width: 100%;
+  height: 700px;
 }
 
 .main {
-  width: 100%;
-  height: 300px;
   display: grid;
-  text-align: center;
   grid: 300px / auto auto auto;
 }
 
-.mainelement{
-  width: 100%;
-
-}
 
 .icon{
   color: rgb(65, 63, 58);
   background-color: white;
   border-radius: 8px;
   border: none;
-  padding: 10%;
+  padding: 5%;
   font-weight: bolder;
   transition: 0.3s;
 }
@@ -124,6 +122,40 @@
   border-style: none;
 }
 
+
+
+.imgCh{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background:rgba(0, 0, 0, 0.4)url(./app/image/spa-therapy3.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-blend-mode: darken; 
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  align-items: center;
+  text-align: center;
+  font-family: inherit monospace;
+}
+
+.imgCh h1{
+  margin-inline: 30%;
+}
+
+.imgCh p{
+  margin-inline: 20%;
+}
+
+.imgCh button{
+  font-size: 15px;
+}
+
+
+
 .tratamentos{
  text-align: center;
 }
@@ -132,13 +164,7 @@
   width: 100%;
   height: 620px;
   display: grid;
-  text-align: center;
   grid: 300px / auto auto auto;
-}
-
-.elementosTratamentos{
-  width: 100%;
-  text-align: center;
 }
 
 .iconTratamentos0{
@@ -259,24 +285,8 @@ padding: 20px;
 font-size: large;
 }
 
-
-.squad{
- padding: 20px;
-}
-
-.mainSquad{
-  display: flex;
-  align-items: center;
-  background-color: #f0c9977e;
-}
-
-.mainSquad img{
-  padding: 20px;
-}
-
-.squadText{
-  padding: 50px;
-
+.mainEquip{
+  padding: 10px;
 }
 
 .mybuttonEquip{
@@ -297,53 +307,44 @@ font-size: large;
 
 }
 
+
+
+.squad{
+ padding: 20px;
+}
+
+.mainSquad{
+  display: flex;
+  align-items: center;
+  background-color:azure;
+}
+
+.mainSquad img{
+  padding: 20px;
+}
+
+.squadText{
+  padding: 50px;
+
+}
+
+
+
 .video{
   font-family: inherit monospace;
   text-align: center; 
   background-image: url('./app/image/background_therapy.jpg'); 
   background-repeat: no-repeat;
   background-size: cover;
-  src: url('./assets/X2.mp4');
   padding: 80px;
 }
+
 
 
 .planos{
   align-items: center;
   text-align: center;
 }
-
-
-.imgCh{
-  width: 100%;
-  height: 100%;
-  position: relative;
-  background:rgba(0, 0, 0, 0.4)url(./app/image/spa-therapy3.jpg);
-  background-repeat: none;
-  background-size: cover;
-  background-blend-mode: darken; 
-  color: white;
-  font-size: 20px;
-  justify-content: center;
-  padding-top: 250px;
-  padding-bottom: 250px;
-  align-items: center;
-  text-align: center;
-  font-family: inherit monospace;
-}
-
-.imgCh h1{
-  margin-inline: 30%;
-}
-
-.imgCh p{
-  margin-inline: 20%;
-}
-
-.imgCh button{
-  font-size: 15px;
-}
-
 
 
 
@@ -395,18 +396,6 @@ font-size: large;
 
 
 
-.imgCh0{
-  width: 100%;
-  height: 100%;
-  background:rgba(0, 0, 0, 0.4)url(./app/image/spa-therapy4.jpg);
-  background-repeat: none;
-  background-size: auto;
-  padding-top: 500px;
-  padding-bottom: 500px;
-}
-
-
-
 .contact{
   background:url(./app/image/background_spa2.jpg);
   padding-top: 400px;
@@ -414,13 +403,131 @@ font-size: large;
 }
 
 
+
 .baseboard{
   background-color: rgb(40, 40, 40);
-  border-radius: 8px;
   color: white;
   align-items: center;
   column-count: 2;
   column-gap: 40px;
   padding: 100px;
   padding-inline: 300px;
+}
+
+
+
+
+
+@media only screen and (max-width:700px) {
+
+  .header{
+    font-size: 5px;
+  }
+
+
+
+  .card {
+    font-size: 200px;
+    position: relative;
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+    padding: 60px;
+    text-align: center;
+    font-family: inherit monospace;
+  }
+
+
+  
+  .visitcard{
+    column-count: 1;
+    font-size: 10px;
+  }
+
+  
+  
+  .servic{
+    width: 100%;
+    height: 1400px;
+  }
+  
+  .main {
+    display:contents;
+    grid: 300px / auto auto auto;
+  }
+
+  .icon{
+    font-size: 10px;
+    width: 80%;
+  }
+
+
+
+  .imgCh{
+    font-size: large;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+  }
+
+  .imgCh h1{
+    margin-inline: 5%;
+  }
+
+  .imgCh p{
+    margin-inline: 5%;
+  }
+
+
+
+  .mainTratamentos{
+    width: 100%;
+    height: 1400px;;
+    display:contents;
+
+
+  }
+
+
+
+  .equip{
+    height: 1700px;
+  }
+
+  .cardEquip{
+    display:contents;
+  }
+
+
+
+  .mainblog{
+    display:contents;
+    grid: 300px / auto;
+    margin: 10px;
+  }
+
+
+
+  .baseboard{
+    background-color: rgb(40, 40, 40);
+    align-items: center;
+    column-count: 2;
+    padding: 100px;
+    padding-inline: 50px;
+  }
+
+
+
+  .mainSquad{
+    display:contents;
+  font-size: small;
+  }
+
+  .mainSquad img{
+    display: block;
+    height: 300px;
+    width: 350px;
+   
+  }
+
 }

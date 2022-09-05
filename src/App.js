@@ -11,7 +11,6 @@ import Card from './app/card';
 import VisitCard from './app/VisitCart';
 import Servic from './app/Servic';
 import ImgCh from './app/ImgCh';
-import ImgCh0 from './app/ImgCh0';
 import Contact from './app/Contact';
 import Video from './app/video';
 import Equip from './app/equip';
@@ -47,7 +46,7 @@ function App() {
               </div>
             </div>
 
-            <div className='animation' data-aos="fade-down">
+            <div className='animation' data-aos="fade-up">
               <VisitCard name0="TRATAMENTOS SPA DE LUXO" name1="Revitalize sua mente, corpo e espírito com o spa de luxo." 
               name2="UMA CALOROSA RECEPÇÃO" name3="Nós da Dream Spa prestamos diversos serviços à natureza dos clientes.
               Deseje como você gostaria de passar o tempo aqui podemos conversar e chegar a uma conclusão." button="Saber Mais"></VisitCard>
@@ -77,19 +76,15 @@ function App() {
             </div>
 
             <div className='Container'>
-              <Planos></Planos>
+              <Planos/>
             </div>
 
             <div className='Container'>
-              <ImgCh0></ImgCh0>
+            <Contact/>
             </div>
 
             <div className='Container'>
               <Blog/>
-            </div>
-
-            <div className='Container'>
-              <Contact></Contact>
             </div>
 
             <div className='Container'>
