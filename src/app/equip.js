@@ -3,7 +3,7 @@ import 'aos/dist/aos.css';
 import { Link } from "react-router-dom";
 import businesSwoman1 from "./image/business woman1.jpg"
 import businesSwoman2 from "./image/business woman2.jpg"
-import businesSwoman3 from "./image/business woman3.jfif"
+import josy from "./image/josy.png"
 import businesSwoman4 from "./image/business woman4.jpg"
 
 function Equip(props){
@@ -28,7 +28,7 @@ function Equip(props){
                     </div>
                     <div className="mainEquip">
                         <div data-aos="fade-right">
-                            <img src={businesSwoman3} alt="img" width="280" height="200"/>
+                            <img src={josy} alt="img" width="280" height="200"/>
                             <button className="mybuttonEquip">Alice <br/> cabeleireira</button>
                         </div>  
                     </div>

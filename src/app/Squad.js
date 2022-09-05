@@ -1,12 +1,12 @@
 import React from "react";
 import 'aos/dist/aos.css';
-import josy from "./image/josy.jpeg"
-import helena from "./image/elena.jpeg"
-import maria from "./image/maria.jpeg"
-import hyorrara from "./image/hyorrara.jpeg"
-import daerlene from "./image/Daerlene.jpeg"
-import meire from "./image/meire.jpeg"
-import marcia from "./image/marcia.jpeg"
+import josy from "./image/josy.png"
+import helena from "./image/Helena Maria.png"
+import maria from "./image/maria.png"
+import hyorrara from "./image/Hyorrara.png"
+import daerlene from "./image/daerlene.png"
+import meire from "./image/meire.png"
+import marcia from "./image/marcia.png"
 
 function Squad(props){
     return (
@@ -17,7 +17,7 @@ function Squad(props){
                 </div>
                 <div className="squad">
                     <div className="mainSquad" data-aos="fade-right">
-                            <img src={josy} alt="img" width="650" height="400"/>
+                            <img src={josy} alt="img" width="auto" height="auto"/>
                             <div className="squadText">
                             <h1>Josy Hair</h1>
                             <h2> Depilação e Estetica</h2>
@@ -74,7 +74,7 @@ function Squad(props){
                 
                 <div className="squad">
                     <div className="mainSquad" data-aos="fade-right">
-                            <img src={maria} alt="img" width="350" height="400"/>
+                            <img src={maria} alt="img" width="auto" height="auto"/>
                             <div className="squadText">
                             <h1>maria</h1>
                             <h2> Cabeleireira</h2>
@@ -88,7 +88,7 @@ function Squad(props){
                 
                 <div className="squad">
                     <div className="mainSquad" data-aos="fade-right">
-                            <img src={hyorrara} alt="img" width="400" height="400"/>
+                            <img src={hyorrara} alt="img" width="auto" height="auto"/>
                             <div className="squadText">
                             <h1>Hyorrara</h1>
                             <h2>Manicure</h2>
@@ -104,7 +104,7 @@ function Squad(props){
 
                 <div className="squad">
                     <div className="mainSquad" data-aos="fade-right">
-                            <img src={daerlene} alt="img" width="240" height="400"/>
+                            <img src={daerlene} alt="img" width="auto" height="auto"/>
                             <div className="squadText">
                             <h1>daerlene</h1>
                             <h2>Manicure</h2>
@@ -120,7 +120,7 @@ function Squad(props){
 
                 <div className="squad">
                     <div className="mainSquad" data-aos="fade-right">
-                            <img src={meire} alt="img" width="240" height="400"/>
+                            <img src={meire} alt="img" width="auto" height="auto"/>
                             <div className="squadText">
                             <h1>meire</h1>
                             <h2>Manicure</h2>
@@ -136,7 +136,7 @@ function Squad(props){
 
                 <div className="squad">
                     <div className="mainSquad" data-aos="fade-right">
-                            <img src={marcia} alt="img" width="300" height="400"/>
+                            <img src={marcia} alt="img" width="auto" height="auto"/>
                             <div className="squadText">
                             <h1>marcia</h1>
                             <h2>Manicure</h2>
